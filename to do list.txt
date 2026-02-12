@@ -1,0 +1,70 @@
+to do list
+    -Flight 
+    -base de donnees 
+    -backoffice
+    -design
+
+
+bases de donnees
+    -users
+        -id
+        -email
+        -username
+        -password
+
+    -objets
+        -id
+        -nom
+        -description
+        -photo
+        -proprietaire
+
+    -categorie
+        -id
+        -nom
+
+Flight
+    -login
+        -email
+        -username
+        -password
+    
+    -page gerer
+        -ajout 
+        -modif
+        -suppr
+
+    -page liste accueil
+        -fiche objet
+        -demande d'echange
+        -barre de recherche (mot cle, categorie)
+
+    -page gerer echange
+        -liste des propositions
+        -ok ou non
+        -historique proprietaires objets with date hour
+
+backoffice
+    -login admin
+        -id
+        -email
+        -username
+        -password
+
+    -gestion categorie
+        ajouter 
+        supprimer
+        modifier
+
+
+    -statistiques
+        -nombre d'utilisateurs
+        -nombre d'echanges
+
+
+
+    
+
+    
+
+
