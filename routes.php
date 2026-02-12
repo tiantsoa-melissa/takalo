@@ -3,7 +3,28 @@ require 'flight/Flight.php';
 require 'config/config.php';
 
 Flight::route('/', function(){
-    Flight::redirect('/login');
+    Flight::redirect('/home');
+});
+
+Flight::route('/home', function(){
+    require 'home.php';
+});
+
+Flight::route('/objet/@id', function($id){
+    $_GET['id'] = $id;
+    require 'objet_detail.php';
+});
+
+Flight::route('/recherche', function(){
+    require 'recherche.php';
+});
+
+Flight::route('/echange/demande', function(){
+    require 'demande_echange.php';
+});
+
+Flight::route('/echange/gestion', function(){
+    require 'gestion_echanges.php';
 });
 
 Flight::route('/login', function(){
