@@ -63,6 +63,66 @@ backoffice
 
 
 
+
+Melissa
+
+    Flight 
+        routes principales (routes.php)
+
+        Login (email, username, password)
+
+        Page gérer (ajout, modif, suppr)
+
+    Base de données : Users
+
+        id, email, username, password
+
+ NB : mise en place de l’authentification et gestion CRUD, mais équilibré par une base de données simple (users).
+ 
+ 
+ Alintsoa
+
+    Base de données : Objets + Catégorie
+
+        id, nom, description, photo, propriétaire
+
+        id, nom
+
+    Flight (page liste accueil)
+
+        fiche objet
+
+        demande d’échange
+
+        barre de recherche (mot clé, catégorie)
+
+NB : gestion des relations entre objets et catégories + recherche, mais équilibré par la partie base de données qui est assez directe.
+
+
+Iraka
+
+    Backoffice
+
+        Login admin
+
+        Gestion catégorie (ajouter, supprimer, modifier)
+
+        Statistiques (nombre d’utilisateurs, nombre d’échanges)
+
+    Flight (page gérer échange)
+
+        liste des propositions
+
+        ok ou non
+
+        historique propriétaires objets avec date/heure
+
+    Design (UI/UX)
+
+NB: backoffice + gestion des échanges (logique plus complexe), mais équilibré par la partie design qui est plus créative et légère.
+
+
+
     
 
     
