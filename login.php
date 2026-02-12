@@ -33,3 +33,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <p style="color:red; text-align:center;"><?= $message ?></p>
 
 <?php include 'includes/footer.php'; ?>
+

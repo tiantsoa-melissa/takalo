@@ -10,7 +10,7 @@ if (!$id) { Flight::redirect('/users'); }
 $stmt = $pdo->prepare("SELECT * FROM users WHERE id = ?");
 $stmt->execute([$id]);
 $user = $stmt->fetch();
-if (!$user) { Flight::redirect('/users'); }
+if (!$user)  { Flight::redirect('/users'); }
 
 $message = '';
 

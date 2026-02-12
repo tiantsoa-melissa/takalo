@@ -1,6 +1,6 @@
 <?php
 require 'config/config.php';
-if (!isset($_SESSION['user_id'])) {
+ if (!isset($_SESSION['user_id'])) {
     Flight::redirect('/login');
 }
 
@@ -10,4 +10,4 @@ if ($id) {
     $stmt->execute([$id]);
 }
 
-Flight::redirect('/users');
+Flight::redirect('/users'); 

@@ -13,7 +13,7 @@ $users = $stmt->fetchAll();
 <h2 style="text-align:center;">Liste des utilisateurs</h2>
 <p style="text-align:center;"><a href="/user/create">Ajouter un utilisateur</a></p>
 
-<table border="1" cellpadding="5" cellspacing="0" style="margin:auto;">
+<table border="1"  cellpadding="5" cellspacing="0" style="margin:auto;">
     <tr>
         <th>ID</th>
         <th>Email</th>

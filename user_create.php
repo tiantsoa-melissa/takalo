@@ -19,7 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 ?>
-
 <?php include 'includes/header.php'; ?>
 
 <h2 style="text-align:center;">Ajouter un utilisateur</h2>
